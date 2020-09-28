@@ -60,13 +60,13 @@ Colour can be displayed in each of the 6 six ways shown above, or can be customi
 
 ```vim
 " vim-plug
-Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+Plug 'kizbitz/vim-hexokinase', { 'do': 'make hexokinase' }
 
 " minpac
-call minpac#add('rrethy/vim-hexokinase', { 'do': 'make hexokinase' })
+call minpac#add('kizbitz/vim-hexokinase', { 'do': 'make hexokinase' })
 
 " dein
-call dein#add('rrethy/vim-hexokinase', { 'build': 'make hexokinase' })
+call dein#add('kizbitz/vim-hexokinase', { 'build': 'make hexokinase' })
 
 " etc.
 ```
